@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5CDF1961EB5E02D00813433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1951EB5E02D00813433 /* main.m */; };
+		C5CDF1991EB5E02D00813433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1981EB5E02D00813433 /* AppDelegate.m */; };
+		C5CDF19C1EB5E02D00813433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF19B1EB5E02D00813433 /* ViewController.m */; };
+		C5CDF19F1EB5E02D00813433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CDF19D1EB5E02D00813433 /* Main.storyboard */; };
+		C5CDF1A11EB5E02D00813433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CDF1A01EB5E02D00813433 /* Assets.xcassets */; };
+		C5CDF1A41EB5E02D00813433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CDF1A21EB5E02D00813433 /* LaunchScreen.storyboard */; };
+		C5CDF1AF1EB5E02E00813433 /* XLLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1AE1EB5E02E00813433 /* XLLineChartTests.m */; };
+		C5CDF1BA1EB5E02E00813433 /* XLLineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1B91EB5E02E00813433 /* XLLineChartUITests.m */; };
+		C5CDF1C91EB5E06A00813433 /* LineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1C81EB5E06A00813433 /* LineChartPoint.m */; };
+		C5CDF1CD1EB5E15000813433 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1CC1EB5E15000813433 /* LineChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5CDF1AB1EB5E02E00813433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CDF1891EB5E02D00813433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CDF1901EB5E02D00813433;
+			remoteInfo = XLLineChart;
+		};
+		C5CDF1B61EB5E02E00813433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5CDF1891EB5E02D00813433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5CDF1901EB5E02D00813433;
+			remoteInfo = XLLineChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5CDF1911EB5E02D00813433 /* XLLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CDF1951EB5E02D00813433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5CDF1971EB5E02D00813433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5CDF1981EB5E02D00813433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5CDF19A1EB5E02D00813433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5CDF19B1EB5E02D00813433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5CDF19E1EB5E02D00813433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5CDF1A01EB5E02D00813433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5CDF1A31EB5E02D00813433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5CDF1A51EB5E02D00813433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CDF1AA1EB5E02E00813433 /* XLLineChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLineChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CDF1AE1EB5E02E00813433 /* XLLineChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLineChartTests.m; sourceTree = "<group>"; };
+		C5CDF1B01EB5E02E00813433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CDF1B51EB5E02E00813433 /* XLLineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CDF1B91EB5E02E00813433 /* XLLineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLineChartUITests.m; sourceTree = "<group>"; };
+		C5CDF1BB1EB5E02E00813433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CDF1C71EB5E06A00813433 /* LineChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartPoint.h; sourceTree = "<group>"; };
+		C5CDF1C81EB5E06A00813433 /* LineChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartPoint.m; sourceTree = "<group>"; };
+		C5CDF1CB1EB5E15000813433 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		C5CDF1CC1EB5E15000813433 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5CDF18E1EB5E02D00813433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CDF1A71EB5E02E00813433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CDF1B21EB5E02E00813433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5CDF1881EB5E02D00813433 = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1931EB5E02D00813433 /* XLLineChart */,
+				C5CDF1AD1EB5E02E00813433 /* XLLineChartTests */,
+				C5CDF1B81EB5E02E00813433 /* XLLineChartUITests */,
+				C5CDF1921EB5E02D00813433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5CDF1921EB5E02D00813433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1911EB5E02D00813433 /* XLLineChart.app */,
+				C5CDF1AA1EB5E02E00813433 /* XLLineChartTests.xctest */,
+				C5CDF1B51EB5E02E00813433 /* XLLineChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CDF1931EB5E02D00813433 /* XLLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1971EB5E02D00813433 /* AppDelegate.h */,
+				C5CDF1981EB5E02D00813433 /* AppDelegate.m */,
+				C5CDF19A1EB5E02D00813433 /* ViewController.h */,
+				C5CDF19B1EB5E02D00813433 /* ViewController.m */,
+				C5CDF1CA1EB5E07300813433 /* LineChart */,
+				C5CDF19D1EB5E02D00813433 /* Main.storyboard */,
+				C5CDF1A01EB5E02D00813433 /* Assets.xcassets */,
+				C5CDF1A21EB5E02D00813433 /* LaunchScreen.storyboard */,
+				C5CDF1A51EB5E02D00813433 /* Info.plist */,
+				C5CDF1941EB5E02D00813433 /* Supporting Files */,
+			);
+			path = XLLineChart;
+			sourceTree = "<group>";
+		};
+		C5CDF1941EB5E02D00813433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1951EB5E02D00813433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5CDF1AD1EB5E02E00813433 /* XLLineChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1AE1EB5E02E00813433 /* XLLineChartTests.m */,
+				C5CDF1B01EB5E02E00813433 /* Info.plist */,
+			);
+			path = XLLineChartTests;
+			sourceTree = "<group>";
+		};
+		C5CDF1B81EB5E02E00813433 /* XLLineChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1B91EB5E02E00813433 /* XLLineChartUITests.m */,
+				C5CDF1BB1EB5E02E00813433 /* Info.plist */,
+			);
+			path = XLLineChartUITests;
+			sourceTree = "<group>";
+		};
+		C5CDF1CA1EB5E07300813433 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				C5CDF1C71EB5E06A00813433 /* LineChartPoint.h */,
+				C5CDF1C81EB5E06A00813433 /* LineChartPoint.m */,
+				C5CDF1CB1EB5E15000813433 /* LineChartView.h */,
+				C5CDF1CC1EB5E15000813433 /* LineChartView.m */,
+			);
+			name = LineChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5CDF1901EB5E02D00813433 /* XLLineChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CDF1BE1EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChart" */;
+			buildPhases = (
+				C5CDF18D1EB5E02D00813433 /* Sources */,
+				C5CDF18E1EB5E02D00813433 /* Frameworks */,
+				C5CDF18F1EB5E02D00813433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLLineChart;
+			productName = XLLineChart;
+			productReference = C5CDF1911EB5E02D00813433 /* XLLineChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5CDF1A91EB5E02E00813433 /* XLLineChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CDF1C11EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChartTests" */;
+			buildPhases = (
+				C5CDF1A61EB5E02E00813433 /* Sources */,
+				C5CDF1A71EB5E02E00813433 /* Frameworks */,
+				C5CDF1A81EB5E02E00813433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CDF1AC1EB5E02E00813433 /* PBXTargetDependency */,
+			);
+			name = XLLineChartTests;
+			productName = XLLineChartTests;
+			productReference = C5CDF1AA1EB5E02E00813433 /* XLLineChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5CDF1B41EB5E02E00813433 /* XLLineChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CDF1C41EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChartUITests" */;
+			buildPhases = (
+				C5CDF1B11EB5E02E00813433 /* Sources */,
+				C5CDF1B21EB5E02E00813433 /* Frameworks */,
+				C5CDF1B31EB5E02E00813433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5CDF1B71EB5E02E00813433 /* PBXTargetDependency */,
+			);
+			name = XLLineChartUITests;
+			productName = XLLineChartUITests;
+			productReference = C5CDF1B51EB5E02E00813433 /* XLLineChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5CDF1891EB5E02D00813433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.cnit.;
+				TargetAttributes = {
+					C5CDF1901EB5E02D00813433 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C5CDF1A91EB5E02E00813433 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5CDF1901EB5E02D00813433;
+					};
+					C5CDF1B41EB5E02E00813433 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5CDF1901EB5E02D00813433;
+					};
+				};
+			};
+			buildConfigurationList = C5CDF18C1EB5E02D00813433 /* Build configuration list for PBXProject "XLLineChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5CDF1881EB5E02D00813433;
+			productRefGroup = C5CDF1921EB5E02D00813433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5CDF1901EB5E02D00813433 /* XLLineChart */,
+				C5CDF1A91EB5E02E00813433 /* XLLineChartTests */,
+				C5CDF1B41EB5E02E00813433 /* XLLineChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5CDF18F1EB5E02D00813433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CDF1A41EB5E02D00813433 /* LaunchScreen.storyboard in Resources */,
+				C5CDF1A11EB5E02D00813433 /* Assets.xcassets in Resources */,
+				C5CDF19F1EB5E02D00813433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CDF1A81EB5E02E00813433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CDF1B31EB5E02E00813433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5CDF18D1EB5E02D00813433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CDF19C1EB5E02D00813433 /* ViewController.m in Sources */,
+				C5CDF1CD1EB5E15000813433 /* LineChartView.m in Sources */,
+				C5CDF1991EB5E02D00813433 /* AppDelegate.m in Sources */,
+				C5CDF1961EB5E02D00813433 /* main.m in Sources */,
+				C5CDF1C91EB5E06A00813433 /* LineChartPoint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CDF1A61EB5E02E00813433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CDF1AF1EB5E02E00813433 /* XLLineChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5CDF1B11EB5E02E00813433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CDF1BA1EB5E02E00813433 /* XLLineChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5CDF1AC1EB5E02E00813433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CDF1901EB5E02D00813433 /* XLLineChart */;
+			targetProxy = C5CDF1AB1EB5E02E00813433 /* PBXContainerItemProxy */;
+		};
+		C5CDF1B71EB5E02E00813433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5CDF1901EB5E02D00813433 /* XLLineChart */;
+			targetProxy = C5CDF1B61EB5E02E00813433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5CDF19D1EB5E02D00813433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CDF19E1EB5E02D00813433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5CDF1A21EB5E02D00813433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5CDF1A31EB5E02D00813433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5CDF1BC1EB5E02E00813433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5CDF1BD1EB5E02E00813433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5CDF1BF1EB5E02E00813433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNIT.XLLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5CDF1C01EB5E02E00813433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XLLineChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNIT.XLLineChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5CDF1C21EB5E02E00813433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNIT.XLLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLLineChart.app/XLLineChart";
+			};
+			name = Debug;
+		};
+		C5CDF1C31EB5E02E00813433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XLLineChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNIT.XLLineChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XLLineChart.app/XLLineChart";
+			};
+			name = Release;
+		};
+		C5CDF1C51EB5E02E00813433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNIT.XLLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLLineChart;
+			};
+			name = Debug;
+		};
+		C5CDF1C61EB5E02E00813433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XLLineChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CNIT.XLLineChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XLLineChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5CDF18C1EB5E02D00813433 /* Build configuration list for PBXProject "XLLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CDF1BC1EB5E02E00813433 /* Debug */,
+				C5CDF1BD1EB5E02E00813433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CDF1BE1EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CDF1BF1EB5E02E00813433 /* Debug */,
+				C5CDF1C01EB5E02E00813433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CDF1C11EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CDF1C21EB5E02E00813433 /* Debug */,
+				C5CDF1C31EB5E02E00813433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5CDF1C41EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5CDF1C51EB5E02E00813433 /* Debug */,
+				C5CDF1C61EB5E02E00813433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5CDF1891EB5E02D00813433 /* Project object */;
+}
