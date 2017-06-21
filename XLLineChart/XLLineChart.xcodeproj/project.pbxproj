@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5C393D11EFA1842000C91B5 /* LineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C393CE1EFA1842000C91B5 /* LineChartPoint.m */; };
+		C5C393D21EFA1842000C91B5 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C393D01EFA1842000C91B5 /* LineChartView.m */; };
 		C5CDF1961EB5E02D00813433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1951EB5E02D00813433 /* main.m */; };
 		C5CDF1991EB5E02D00813433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1981EB5E02D00813433 /* AppDelegate.m */; };
 		C5CDF19C1EB5E02D00813433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF19B1EB5E02D00813433 /* ViewController.m */; };
@@ -15,8 +17,6 @@
 		C5CDF1A41EB5E02D00813433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CDF1A21EB5E02D00813433 /* LaunchScreen.storyboard */; };
 		C5CDF1AF1EB5E02E00813433 /* XLLineChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1AE1EB5E02E00813433 /* XLLineChartTests.m */; };
 		C5CDF1BA1EB5E02E00813433 /* XLLineChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1B91EB5E02E00813433 /* XLLineChartUITests.m */; };
-		C5CDF1C91EB5E06A00813433 /* LineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1C81EB5E06A00813433 /* LineChartPoint.m */; };
-		C5CDF1CD1EB5E15000813433 /* LineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CDF1CC1EB5E15000813433 /* LineChartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5C393CD1EFA1842000C91B5 /* LineChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartPoint.h; sourceTree = "<group>"; };
+		C5C393CE1EFA1842000C91B5 /* LineChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartPoint.m; sourceTree = "<group>"; };
+		C5C393CF1EFA1842000C91B5 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
+		C5C393D01EFA1842000C91B5 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
 		C5CDF1911EB5E02D00813433 /* XLLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CDF1951EB5E02D00813433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5CDF1971EB5E02D00813433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,10 +57,6 @@
 		C5CDF1B51EB5E02E00813433 /* XLLineChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLineChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CDF1B91EB5E02E00813433 /* XLLineChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLineChartUITests.m; sourceTree = "<group>"; };
 		C5CDF1BB1EB5E02E00813433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5CDF1C71EB5E06A00813433 /* LineChartPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartPoint.h; sourceTree = "<group>"; };
-		C5CDF1C81EB5E06A00813433 /* LineChartPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartPoint.m; sourceTree = "<group>"; };
-		C5CDF1CB1EB5E15000813433 /* LineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartView.h; sourceTree = "<group>"; };
-		C5CDF1CC1EB5E15000813433 /* LineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5C393CC1EFA1842000C91B5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C5C393CD1EFA1842000C91B5 /* LineChartPoint.h */,
+				C5C393CE1EFA1842000C91B5 /* LineChartPoint.m */,
+				C5C393CF1EFA1842000C91B5 /* LineChartView.h */,
+				C5C393D01EFA1842000C91B5 /* LineChartView.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		C5CDF1881EB5E02D00813433 = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +122,7 @@
 				C5CDF1981EB5E02D00813433 /* AppDelegate.m */,
 				C5CDF19A1EB5E02D00813433 /* ViewController.h */,
 				C5CDF19B1EB5E02D00813433 /* ViewController.m */,
-				C5CDF1CA1EB5E07300813433 /* LineChart */,
+				C5C393CC1EFA1842000C91B5 /* Common */,
 				C5CDF19D1EB5E02D00813433 /* Main.storyboard */,
 				C5CDF1A01EB5E02D00813433 /* Assets.xcassets */,
 				C5CDF1A21EB5E02D00813433 /* LaunchScreen.storyboard */,
@@ -145,17 +156,6 @@
 				C5CDF1BB1EB5E02E00813433 /* Info.plist */,
 			);
 			path = XLLineChartUITests;
-			sourceTree = "<group>";
-		};
-		C5CDF1CA1EB5E07300813433 /* LineChart */ = {
-			isa = PBXGroup;
-			children = (
-				C5CDF1C71EB5E06A00813433 /* LineChartPoint.h */,
-				C5CDF1C81EB5E06A00813433 /* LineChartPoint.m */,
-				C5CDF1CB1EB5E15000813433 /* LineChartView.h */,
-				C5CDF1CC1EB5E15000813433 /* LineChartView.m */,
-			);
-			name = LineChart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,10 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5CDF19C1EB5E02D00813433 /* ViewController.m in Sources */,
-				C5CDF1CD1EB5E15000813433 /* LineChartView.m in Sources */,
+				C5C393D21EFA1842000C91B5 /* LineChartView.m in Sources */,
 				C5CDF1991EB5E02D00813433 /* AppDelegate.m in Sources */,
 				C5CDF1961EB5E02D00813433 /* main.m in Sources */,
-				C5CDF1C91EB5E06A00813433 /* LineChartPoint.m in Sources */,
+				C5C393D11EFA1842000C91B5 /* LineChartPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +525,7 @@
 				C5CDF1C01EB5E02E00813433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5CDF1C11EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChartTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				C5CDF1C31EB5E02E00813433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5CDF1C41EB5E02E00813433 /* Build configuration list for PBXNativeTarget "XLLineChartUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +543,7 @@
 				C5CDF1C61EB5E02E00813433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
