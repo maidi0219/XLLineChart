@@ -16,5 +16,5 @@
 /** 工厂方法 */
 + (instancetype)pointWithX:(float)x andY:(float)y;
 /////one
-////two update
+
 @end
