@@ -6,7 +6,6 @@
 //  Copyright © 2017年 com.cnit. All rights reserved.
 //
 
-//libPro update
 #import <Foundation/Foundation.h>
 
 @interface LineChartPoint : NSObject
