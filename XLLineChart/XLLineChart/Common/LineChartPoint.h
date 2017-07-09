@@ -16,4 +16,6 @@
 @property (nonatomic, assign) float y;
 /** 工厂方法 */
 + (instancetype)pointWithX:(float)x andY:(float)y;
+//
+
 @end
